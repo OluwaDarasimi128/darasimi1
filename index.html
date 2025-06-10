@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Classic Cuts Barbershop</title>
+  <!-- Font Awesome 6 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-9J+I4gXlhH3Ltjrh8RlR/OT0W+T9VZb8q9DWhKkkQgZ9B1bVbM72jzIen5SLbW4SU2YX3Q3ntGrl1MvEUK/vwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet" />
+  <!-- MDB5 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet"/>
+  <!-- Font Awesome for hamburger icon -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <!-- MDB5 -->
+  <!-- Animate.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top shadow" style="background-color: #0b12eb;" data-mdb-theme="bg-light">
+  <div class="container">
+    <a class="navbar-brand text-white fw-bold fs-4" href="#"><img src="IMAGES/logo.png"></a>
+
+    <button class="navbar-toggler text-white" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto gap-3">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#booking">Booking</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home -->
+<section id="home">
+  <div class="container text-center">
+    <h1 class="display-3 fw-bold mb-4 animate__animated animate__fadeInDown">
+      Welcome to <span class="text-accent">Classic Cuts Barbing Salon</span>
+    </h1>
+    <p class="lead mb-5 animate__animated animate__fadeInUp text-white-50">
+      Barbering with styles and precision
+    </p>
+    <div class="d-flex justify-content-center gap-3 flex-wrap">
+      <a href="#booking" class="btn btn-accent btn-lg px-4 animate__animated animate__fadeInLeft" role="button">
+        Book an Appointment
+      </a>
+      <a href="about.html" class="btn btn-outline-light btn-lg px-4 animate__animated animate__fadeInRight" role="button">
+        Learn More
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Services -->
+<section id="services" class="bg-light py-5">
+  <div class="container text-center">
+    <h2 class="mb-5 fw-bold" style="color: #003366;">Our Services</h2>
+    <div class="row">
+
+      <!-- Hair cut -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm hover-shadow">
+          <div class="card-body">
+            <div class="mb-4 text-primary">
+              <i class="fas fa-scissors"></i>
+            </div>
+            <h5 class="card-title fw-bold">Haircut</h5>
+            <p class="card-text text-muted">From clean fades to textured crops, we craft every cut to fit your style and head shape. Whether you're going classic or bold, you'll leave with a fresh, confident look — no cookie-cutter cuts here.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Beard Trim -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm hover-shadow">
+          <div class="card-body">
+            <div class="mb-4 text-success">
+              <i class="fas fa-user"></i>
+            </div>
+            <h5 class="card-title fw-bold">Beard Trim</h5>
+            <p class="card-text text-muted">Precision fades, clean cheek lines, and well-defined edges — we shape your beard to suit your face and keep it looking sharp. No strays, no bulk, just smooth, intentional grooming.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hot Towel Shave -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm hover-shadow">
+          <div class="card-body">
+            <div class="mb-4 text-warning">
+              <i class="fas fa-water"></i>
+            </div>
+            <h5 class="card-title fw-bold">Hot Towel Shave</h5>
+            <p class="card-text text-muted">Steam, lather, razor, and chill. This is more than a shave — it’s a full experience. Relax while we reset your skin with a clean, close cut using pro tools and warm towel wraps.
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hair Styling -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm hover-shadow">
+          <div class="card-body">
+            <div class="mb-4 text-warning">
+              <i class="fas fa-wind"></i>
+            </div>
+            <h5 class="card-title fw-bold">Hair Styling</h5>
+            <p class="card-text text-muted">The perfect finish for your cut. We use high-end products to create lasting styles — from natural texture to slicked-back precision. Walk out photo-ready, every time.
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Gallery -->
+<section id="gallery" class="bg-light py-5">
+  <div class="container text-center">
+    <h2 class="text-center fw-bold mb-5" style="color: #003366;">Gallery</h2>
+
+    <div class="accordion" id="GalleryAccordion">
+      <img src="IMAGES/pic-1.jpg" alt="Skin Fade Haircut" width="500px">
+      <img src="IMAGES/pic-2.jpg" alt="Barber Chair" width="500px">
+      <img src="IMAGES/pic-3.jpg" alt="Barber Chair" width="500px">
+      <img src="IMAGES/pic-4.jpg" alt="Barber Chair" width="500px">
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Booking -->
+      <section id="booking" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center mb-4">Book an Appointment</h2>
+          <form>
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name" required>
+              </div>
+              <div class="col-md-6">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" placeholder="+234 813 188 9047" required>
+              </div>
+            </div>
+      
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="date" class="form-label">Preferred Date</label>
+                <input type="date" class="form-control" id="date" required>
+              </div>
+              <div class="col-md-6">
+                <label for="time" class="form-label">Preferred Time</label>
+                <input type="time" class="form-control" id="time" required>
+              </div>
+            </div>
+      
+            <div class="mb-3">
+              <label for="service" class="form-label">Select Service</label>
+              <select class="form-select" id="service" required>
+                <option value="">-- Choose a service --</option>
+                <option>Haircut</option>
+                <option>Beard Trim</option>
+                <option>Hot Towel Shave</option>
+                <option>Hair Styling</option>
+                <option>Scalp Treatment</option>
+              </select>
+            </div>
+      
+            <div class="mb-3">
+              <label for="message" class="form-label">Additional Notes</label>
+              <textarea class="form-control" id="message" rows="3" placeholder="Any special requests?"></textarea>
+            </div>
+      
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-lg">Confirm Booking</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      
+    </form>
+  </div>
+</section>
+
+
+
+
+<!-- Contact -->
+<section id="contact" class="py-5 bg-light text-black">
+  <div class="container">
+    <h2 class="text-center mb-4">Get in Touch</h2>
+    <div class="row">
+      <!-- Contact Info -->
+      <div class="col-md-6 mb-4">
+        <h5>Contact Details</h5>
+        <p><i class="fas fa-map-marker-alt me-2"></i>123 Barber Lane, Cityville</p>
+        <p><i class="fas fa-phone me-2"></i>+234 813 188 9047</p>
+        <p><i class="fas fa-envelope me-2"></i>info@classiccuts.com</p>
+        <div class="mt-3">
+          <a href="#" class="text-white me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-md-6">
+        <h5>Send Us a Message</h5>
+        <form>
+          <div class="mb-3">
+            <label for="contactName" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="contactName" placeholder="Name" required>
+          </div>
+          <div class="mb-3">
+            <label for="contactEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="contactEmail" placeholder="you@example.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="contactMessage" class="form-label">Message</label>
+            <textarea class="form-control" id="contactMessage" rows="4" placeholder="Type your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-outline-dark">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer class=" text-white pt-4 pb-2" style="color: wheat;">
+  <div class="container text-center text-md-start">
+    <div class="row">
+
+      <!-- Brand Info -->
+      <div class="col-md-4 mb-4">
+        <h5 class="text-uppercase">Classic Cuts</h5>
+        <p>Barbering with style, precision, and tradition. Walk-ins welcome, appointments recommended.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-4">
+        <h5 class="text-uppercase">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="#services" class="text-white text-decoration-none">Services</a></li>
+          <li><a href="#booking" class="text-white text-decoration-none">Book Now</a></li>
+          <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-md-4 mb-4">
+        <h5 class="text-uppercase">Follow Us</h5>
+        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
+        <p class="mt-3">Mon–Sat: 9AM – 7PM</p>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center mt-3 border-top pt-3">
+      <p class="mb-0">© 2025 Classic Cuts. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- MDB JS -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+ <script>
+      document.querySelectorAll('.navbar-collapse .nav-link').forEach(item => {
+      item.addEventListener('click', () => {
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+        let collapseInstance = mdb.Collapse.getInstance(navbarCollapse);
+        if (!collapseInstance) {
+          collapseInstance = new mdb.Collapse(navbarCollapse);
+        }
+        collapseInstance.hide();
+      });
+    });
+  </script>
+
+</body>
+</html>
